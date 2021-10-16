@@ -1,0 +1,8 @@
+import serviceinventory.BusinessUnit
+
+model {
+	Iterable<BusinessUnit> businessUnitList
+}
+
+json tmpl.businessUnit(businessUnitList ?: [])
+

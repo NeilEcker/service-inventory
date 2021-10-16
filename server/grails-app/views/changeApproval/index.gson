@@ -1,0 +1,8 @@
+import serviceinventory.ChangeApproval
+
+model {
+	Iterable<ChangeApproval> changeApprovalList
+}
+
+json tmpl.changeApproval(changeApprovalList ?: [])
+

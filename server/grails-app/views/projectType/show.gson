@@ -1,0 +1,7 @@
+import serviceinventory.ProjectType
+
+model {
+	ProjectType projectType
+}
+
+json tmpl.projectType(projectType)

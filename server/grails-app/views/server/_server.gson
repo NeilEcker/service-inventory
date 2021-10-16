@@ -1,0 +1,7 @@
+import serviceinventory.Server
+
+model {
+	Server server
+}
+
+json g.render(server, [resolveTemplate: false, expand: ['division']])

@@ -1,0 +1,7 @@
+import serviceinventory.ChangeApproval
+
+model {
+	ChangeApproval changeApproval
+}
+
+json tmpl.changeApproval(changeApproval)

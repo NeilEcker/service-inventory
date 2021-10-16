@@ -1,0 +1,7 @@
+import serviceinventory.ReferenceType
+
+model {
+	ReferenceType referenceType
+}
+
+json tmpl.referenceType(referenceType)

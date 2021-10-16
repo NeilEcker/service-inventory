@@ -1,0 +1,7 @@
+import serviceinventory.Staff
+
+model {
+	Staff staff
+}
+
+json tmpl.staff(staff)

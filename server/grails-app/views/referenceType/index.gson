@@ -1,0 +1,8 @@
+import serviceinventory.ReferenceType
+
+model {
+	Iterable<ReferenceType> referenceTypeList
+}
+
+json tmpl.referenceType(referenceTypeList ?: [])
+

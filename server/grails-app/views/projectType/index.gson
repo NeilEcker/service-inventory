@@ -1,0 +1,8 @@
+import serviceinventory.ProjectType
+
+model {
+	Iterable<ProjectType> projectTypeList
+}
+
+json tmpl.projectType(projectTypeList ?: [])
+

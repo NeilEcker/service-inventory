@@ -1,0 +1,7 @@
+import serviceinventory.ReferenceType
+
+model {
+	ReferenceType referenceType
+}
+
+json g.render(referenceType, [resolveTemplate: false])

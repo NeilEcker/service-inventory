@@ -1,0 +1,7 @@
+import serviceinventory.Staff
+
+model {
+	Staff staff
+}
+
+json g.render(staff, [resolveTemplate: false])

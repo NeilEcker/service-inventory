@@ -1,0 +1,7 @@
+import serviceinventory.Project
+
+model {
+	Project project
+}
+
+json tmpl.project(project)

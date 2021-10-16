@@ -1,0 +1,8 @@
+import serviceinventory.Staff
+
+model {
+	Iterable<Staff> staffList
+}
+
+json tmpl.staff(staffList ?: [])
+

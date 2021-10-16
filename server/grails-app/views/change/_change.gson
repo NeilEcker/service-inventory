@@ -1,0 +1,7 @@
+import serviceinventory.Change
+
+model {
+	Change change
+}
+
+json g.render(change, [resolveTemplate: false, expand: ['division', 'staff', 'approval', 'serversAffected', 'servicesAffected']])

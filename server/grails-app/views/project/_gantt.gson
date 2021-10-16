@@ -1,0 +1,15 @@
+import serviceinventory.Project
+
+model {
+	Project project
+}
+
+json {
+    id project.id
+    name project.name
+    description project.description
+    type project.projectType.name
+    start project.startDate
+    end project.endDate
+    complete project.completion
+}

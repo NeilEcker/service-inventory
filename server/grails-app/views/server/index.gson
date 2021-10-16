@@ -1,0 +1,8 @@
+import serviceinventory.Server
+
+model {
+	Iterable<Server> serverList
+}
+
+json tmpl.server(serverList ?: [])
+

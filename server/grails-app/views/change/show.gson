@@ -1,0 +1,7 @@
+import serviceinventory.Change
+
+model {
+	Change change
+}
+
+json tmpl.change(change)

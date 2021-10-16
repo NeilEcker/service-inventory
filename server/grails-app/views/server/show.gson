@@ -1,0 +1,7 @@
+import serviceinventory.Server
+
+model {
+	Server server
+}
+
+json tmpl.server(server)

@@ -1,0 +1,7 @@
+import serviceinventory.Project
+
+model {
+	Project project
+}
+
+json g.render(project, [resolveTemplate: false, expand: ['division', 'projectType', 'assignedTo', 'servicesAffected', 'serversAffected', 'businessUnits']])

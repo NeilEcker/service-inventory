@@ -1,0 +1,7 @@
+import serviceinventory.AppService
+
+model {
+	AppService appService
+}
+
+json g.render(appService, [resolveTemplate: false, deep:true])

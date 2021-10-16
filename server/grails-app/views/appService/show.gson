@@ -1,0 +1,7 @@
+import serviceinventory.AppService
+
+model {
+	AppService appService
+}
+
+json tmpl.appService(appService)

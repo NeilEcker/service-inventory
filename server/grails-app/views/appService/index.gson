@@ -1,0 +1,7 @@
+import serviceinventory.AppService
+
+model {
+	Iterable<AppService> appServiceList
+}
+
+json tmpl.appService(appServiceList ?: [])

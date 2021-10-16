@@ -1,0 +1,8 @@
+import serviceinventory.Reference
+
+model {
+	Iterable<Reference> referenceList
+}
+
+json tmpl.reference(referenceList ?: [])
+

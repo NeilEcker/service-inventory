@@ -1,0 +1,7 @@
+import serviceinventory.BusinessUnit
+
+model {
+	BusinessUnit businessUnit
+}
+
+json tmpl.businessUnit(businessUnit)

@@ -1,0 +1,8 @@
+import serviceinventory.Change
+
+model {
+	Iterable<Change> changeList
+}
+
+json tmpl.change(changeList ?: [])
+
